@@ -1,0 +1,86 @@
+$line-color: #dcdcdc;
+
+.menu-line-head {
+  display: flex;
+  justify-content: center;
+}
+.simp-line-start {
+  position: absolute;
+  width: 99.9%;
+  height: 0.1px;
+  left: 0;
+  top: 81.5px;
+  border: 1px solid $line-color;
+}
+.menu-line {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+  list-style-type: none;
+  padding: 0;
+  gap: 20px;
+  position: absolute;
+  font-size: 1.6rem;
+  width: 65%;
+  height: auto;
+  top: 60px;
+}
+
+.menu-line li:hover {
+  list-style-image:  url("./media/small-upDown.png");
+  cursor: pointer;
+}
+
+.menu-line li {
+  direction: rtl;
+  padding: 10px;
+}
+.simp-line-end {
+  position: absolute;
+  width: 99.9%;
+  height: 0.1px;
+  left: 0;
+  top: 134px;
+  border: 1px solid $line-color;
+}
+
+
+
+
+
+
+.op-menu-cont {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.open-menu {
+  position: fixed;
+  list-style-type: none;
+  background-color: white;
+  border: 2px solid #cccccc;
+  cursor: pointer;
+  width: 200px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  left: 230px;
+  top: 133px;
+}
+
+.open-menu li {
+  font-size: 17px;
+  color: black;
+  border: 1px solid white;
+  padding: 5px;
+  padding-left: 15px;
+}
+
+.open-menu li:hover {
+  background-color: #e3e3e3;
+  color: black;
+}
